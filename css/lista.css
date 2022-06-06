@@ -1,0 +1,135 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica Neue;
+	font-weight: lighter;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	text-align: center;
+}
+
+
+article {
+	display: inline;
+}
+
+.enlace {
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+    transition: all 0.3s linear;
+    font-family: 'Bebas Neue';
+	font-size: 13px;
+	width: 200px;
+	height: 285px;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.enlace:hover {
+	transform: scale(1.3,1.3);
+}
+
+
+table {
+	display: inline;	
+}
+
+figure {
+	display: inline;
+}
+
+.imagen {
+	border-radius: 10px;
+	border: 0px;
+	width: 200px;
+	height: 200px;
+}
+
+.titulo {
+	text-align: center;
+	display: block;
+	text-shadow: 2px 2px black;
+	color: #6b5b95;
+	font-size: 60px;
+	font-weight: bold;
+	margin-top: 160px;
+	margin-bottom: 80px;
+}
+
+td{
+	width: 205px;
+}
+
+.td_imagen{
+	height: 205px;
+	background-color: #EAEDED;
+	border-radius: 10px;
+	display: inline-table;
+	box-shadow: 0 4px 5px 3px rgba(0, 0, 0, 0.5);
+	margin-bottom: 10px;
+}
+
+.caja_buscar{
+	display: inline-block;
+	width: 100%;
+}
+
+.caja_busqueda{
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-right: 40px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border: none;
+	font-size: 25px;
+	margin-bottom: 50px;
+	width:900px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 25px;
+}
+
+input[type="submit"]{
+	font-size: 34px;
+	height: 100px;
+	width: 250px;
+	margin-top: 20px;
+	border-radius: 10px;
+	background-color: white;
+	border: 0px;
+}
+
+#submit:hover {
+	color: white;
+	background-color: #6b5b95;
+}
+
+
+p {
+	font-size: 30px;
+	font-weight: bold;
+	color: #6b5b95;
+	
+}
+
+body{
+	background-color: #ffef96;
+}
+
+#miFormulario {
+	width: 400px;
+	height: 100;
+	background-color: white;
+	overflow: hidden;
+}
